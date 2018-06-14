@@ -1,0 +1,37 @@
+subtitleInfo:
+ type: object
+ properties:
+ path:
+ type: string
+ format: string
+ description: >-
+This is the path   of the subtitle file. This will be absolute path of
+ the respective file from   where the client can retrieve the subtitle
+ file.
+ maxLength: 256
+ language:
+ type: string
+ format: string
+ example: 'Englighhhh'
+ description: >-
+this will be the   value of language used for the subtitle in thesubtitleInfo:
+ type: object
+ properties:
+ path:
+ type: string
+ format: string
+ description: >-
+This is the path   of the subtitle file. This will be absolute path of
+ the respective file from   where the client can retrieve the subtitle
+ file.
+ maxLength: 256
+ language:
+ type: string
+ format: string
+ example: 'Englighhhh'
+ description: >-
+this will be the   value of language used for the subtitle in the
+ subtitle file.
+ maxLength: 25
+ subtitle file.
+ maxLength: 25
